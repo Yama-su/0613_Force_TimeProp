@@ -1,0 +1,17 @@
+name = "timeprop"
+uuid = "842018f8-f9ee-4420-8dda-0a021d232bb1"
+authors = ["Hiroshi Shinaoka <h.shinaoka@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[deps]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
+[compat]
+Plots = "1.40.13"
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
